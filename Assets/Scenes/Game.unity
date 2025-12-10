@@ -8053,7 +8053,7 @@ MonoBehaviour:
   currentWaveCount: 0
   bossPrefab: {fileID: 7592724057502700422, guid: ae146497589310a4cbee788292c9ee53, type: 3}
   bossActive: 0
-  bossWaveInterval: 1
+  bossWaveInterval: 5
   enemiesAlive: 0
   maxEnemiesAllowed: 25
   maxEnemiesReached: 0
