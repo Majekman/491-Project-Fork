@@ -3611,7 +3611,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &841876083
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3861,7 +3861,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &872395792
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4836,7 +4836,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1083096707
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7548,7 +7548,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1763465282
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7846,11 +7846,11 @@ MonoBehaviour:
   - waveName: Wave 1
     enemyGroups:
     - enemyName: Bat
-      enemyCount: 25
+      enemyCount: 50
       spawnCount: 0
       enemyPrefab: {fileID: 726310994575374477, guid: c27be978bd94f534ca8a8c924340abcb, type: 3}
     - enemyName: Bat
-      enemyCount: 0
+      enemyCount: 400
       spawnCount: 0
       enemyPrefab: {fileID: 726310994575374477, guid: 638d37e10f32b3042bf29da908259beb, type: 3}
     - enemyName: Skeleton
@@ -7980,9 +7980,9 @@ MonoBehaviour:
   currentWaveCount: 0
   bossPrefab: {fileID: 7592724057502700422, guid: ae146497589310a4cbee788292c9ee53, type: 3}
   bossActive: 0
-  bossWaveInterval: 10
+  bossWaveInterval: 2
   enemiesAlive: 0
-  maxEnemiesAllowed: 25
+  maxEnemiesAllowed: 500
   maxEnemiesReached: 0
   waveInterval: 25
   relativeSpawnPoints:
