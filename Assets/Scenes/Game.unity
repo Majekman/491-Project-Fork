@@ -348,6 +348,8 @@ GameObject:
   - component: {fileID: 53328375}
   - component: {fileID: 53328374}
   - component: {fileID: 53328373}
+  - component: {fileID: 53328379}
+  - component: {fileID: 53328378}
   m_Layer: 5
   m_Name: Back to Menu
   m_TagString: Untagged
@@ -509,6 +511,41 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 53328371}
   m_CullTransparentMesh: 1
+--- !u!114 &53328378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53328371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &53328379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53328371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
 --- !u!1 &113325698
 GameObject:
   m_ObjectHideFlags: 0
@@ -2254,7 +2291,7 @@ MonoBehaviour:
 '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3611,7 +3648,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &841876083
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3861,7 +3898,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &872395792
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4836,7 +4873,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1083096707
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5399,7 +5436,7 @@ MonoBehaviour:
   - {fileID: 3694023231144814928, guid: c1c0995cc8b96e54ca3db9d9bed4ea43, type: 3}
   - {fileID: 3694023231144814928, guid: 66905a9cafeea8d43aa0a3f185e144aa, type: 3}
   player: {fileID: 1419933944}
-  checkerRadius: 0.2
+  checkerRadius: 0.41
   terrainMask:
     serializedVersion: 2
     m_Bits: 64
@@ -7548,7 +7585,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1763465282
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7846,7 +7883,24 @@ MonoBehaviour:
   - waveName: Wave 1
     enemyGroups:
     - enemyName: Bat
-      enemyCount: 25
+      enemyCount: 50
+      spawnCount: 0
+      enemyPrefab: {fileID: 726310994575374477, guid: c27be978bd94f534ca8a8c924340abcb, type: 3}
+    - enemyName: Bat
+      enemyCount: 0
+      spawnCount: 0
+      enemyPrefab: {fileID: 726310994575374477, guid: 638d37e10f32b3042bf29da908259beb, type: 3}
+    - enemyName: Skeleton
+      enemyCount: 0
+      spawnCount: 0
+      enemyPrefab: {fileID: 2364492899665514887, guid: d26104f97f427174aa47a89f19e15c46, type: 3}
+    waveQuota: 0
+    spawnInterval: 4.96
+    spawnCount: 0
+  - waveName: Wave 2
+    enemyGroups:
+    - enemyName: Bat
+      enemyCount: 30
       spawnCount: 0
       enemyPrefab: {fileID: 726310994575374477, guid: c27be978bd94f534ca8a8c924340abcb, type: 3}
     - enemyName: Bat
@@ -7858,20 +7912,7 @@ MonoBehaviour:
       spawnCount: 0
       enemyPrefab: {fileID: 2364492899665514887, guid: d26104f97f427174aa47a89f19e15c46, type: 3}
     waveQuota: 0
-    spawnInterval: 0.5
-    spawnCount: 0
-  - waveName: Wave 2
-    enemyGroups:
-    - enemyName: Bat
-      enemyCount: 25
-      spawnCount: 0
-      enemyPrefab: {fileID: 726310994575374477, guid: c27be978bd94f534ca8a8c924340abcb, type: 3}
-    - enemyName: Bat
-      enemyCount: 25
-      spawnCount: 0
-      enemyPrefab: {fileID: 726310994575374477, guid: 638d37e10f32b3042bf29da908259beb, type: 3}
-    waveQuota: 0
-    spawnInterval: 1
+    spawnInterval: 4.5
     spawnCount: 0
   - waveName: Wave 3
     enemyGroups:
@@ -7880,111 +7921,143 @@ MonoBehaviour:
       spawnCount: 0
       enemyPrefab: {fileID: 726310994575374477, guid: c27be978bd94f534ca8a8c924340abcb, type: 3}
     - enemyName: Bat
-      enemyCount: 30
+      enemyCount: 5
       spawnCount: 0
       enemyPrefab: {fileID: 726310994575374477, guid: 638d37e10f32b3042bf29da908259beb, type: 3}
+    - enemyName: Skeleton
+      enemyCount: 25
+      spawnCount: 0
+      enemyPrefab: {fileID: 2364492899665514887, guid: d26104f97f427174aa47a89f19e15c46, type: 3}
     waveQuota: 0
-    spawnInterval: 1
+    spawnInterval: 2.23
     spawnCount: 0
   - waveName: Wave 4
     enemyGroups:
     - enemyName: Bat
-      enemyCount: 5
+      enemyCount: 15
       spawnCount: 0
       enemyPrefab: {fileID: 726310994575374477, guid: c27be978bd94f534ca8a8c924340abcb, type: 3}
     - enemyName: Bat
-      enemyCount: 35
+      enemyCount: 20
       spawnCount: 0
       enemyPrefab: {fileID: 726310994575374477, guid: 638d37e10f32b3042bf29da908259beb, type: 3}
+    - enemyName: Skeleton
+      enemyCount: 20
+      spawnCount: 0
+      enemyPrefab: {fileID: 2364492899665514887, guid: d26104f97f427174aa47a89f19e15c46, type: 3}
     waveQuota: 0
     spawnInterval: 1
     spawnCount: 0
   - waveName: Wave 5
     enemyGroups:
     - enemyName: Bat
-      enemyCount: 5
+      enemyCount: 30
       spawnCount: 0
       enemyPrefab: {fileID: 726310994575374477, guid: c27be978bd94f534ca8a8c924340abcb, type: 3}
     - enemyName: Bat
       enemyCount: 35
       spawnCount: 0
       enemyPrefab: {fileID: 726310994575374477, guid: 638d37e10f32b3042bf29da908259beb, type: 3}
+    - enemyName: Bat
+      enemyCount: 33
+      spawnCount: 0
+      enemyPrefab: {fileID: 2364492899665514887, guid: d26104f97f427174aa47a89f19e15c46, type: 3}
     waveQuota: 0
-    spawnInterval: 1
+    spawnInterval: 3.51
     spawnCount: 0
   - waveName: Wave 6
     enemyGroups:
     - enemyName: Bat
-      enemyCount: 10
+      enemyCount: 40
       spawnCount: 0
       enemyPrefab: {fileID: 726310994575374477, guid: c27be978bd94f534ca8a8c924340abcb, type: 3}
     - enemyName: Bat
-      enemyCount: 35
+      enemyCount: 45
       spawnCount: 0
       enemyPrefab: {fileID: 726310994575374477, guid: 638d37e10f32b3042bf29da908259beb, type: 3}
+    - enemyName: Bat
+      enemyCount: 45
+      spawnCount: 0
+      enemyPrefab: {fileID: 2364492899665514887, guid: d26104f97f427174aa47a89f19e15c46, type: 3}
     waveQuota: 0
-    spawnInterval: 1
+    spawnInterval: 3.03
     spawnCount: 0
   - waveName: Wave 7
     enemyGroups:
     - enemyName: Bat
-      enemyCount: 10
+      enemyCount: 51
       spawnCount: 0
       enemyPrefab: {fileID: 726310994575374477, guid: c27be978bd94f534ca8a8c924340abcb, type: 3}
     - enemyName: Bat
-      enemyCount: 35
+      enemyCount: 50
       spawnCount: 0
       enemyPrefab: {fileID: 726310994575374477, guid: 638d37e10f32b3042bf29da908259beb, type: 3}
+    - enemyName: Bat
+      enemyCount: 50
+      spawnCount: 0
+      enemyPrefab: {fileID: 2364492899665514887, guid: d26104f97f427174aa47a89f19e15c46, type: 3}
     waveQuota: 0
-    spawnInterval: 1
+    spawnInterval: 2.47
     spawnCount: 0
   - waveName: Wave 8
     enemyGroups:
     - enemyName: Bat
-      enemyCount: 10
+      enemyCount: 30
       spawnCount: 0
       enemyPrefab: {fileID: 726310994575374477, guid: c27be978bd94f534ca8a8c924340abcb, type: 3}
     - enemyName: Bat
-      enemyCount: 40
+      enemyCount: 55
       spawnCount: 0
       enemyPrefab: {fileID: 726310994575374477, guid: 638d37e10f32b3042bf29da908259beb, type: 3}
+    - enemyName: Bat
+      enemyCount: 55
+      spawnCount: 0
+      enemyPrefab: {fileID: 2364492899665514887, guid: d26104f97f427174aa47a89f19e15c46, type: 3}
     waveQuota: 0
-    spawnInterval: 1
+    spawnInterval: 2.05
     spawnCount: 0
   - waveName: Wave 9
     enemyGroups:
     - enemyName: Bat
-      enemyCount: 0
+      enemyCount: 20
       spawnCount: 0
       enemyPrefab: {fileID: 726310994575374477, guid: c27be978bd94f534ca8a8c924340abcb, type: 3}
     - enemyName: Bat
-      enemyCount: 50
+      enemyCount: 60
       spawnCount: 0
       enemyPrefab: {fileID: 726310994575374477, guid: 638d37e10f32b3042bf29da908259beb, type: 3}
+    - enemyName: Bat
+      enemyCount: 60
+      spawnCount: 0
+      enemyPrefab: {fileID: 2364492899665514887, guid: d26104f97f427174aa47a89f19e15c46, type: 3}
     waveQuota: 0
-    spawnInterval: 1
+    spawnInterval: 1.55
     spawnCount: 0
   - waveName: Wave 10
     enemyGroups:
     - enemyName: Bat
-      enemyCount: 0
+      enemyCount: 15
       spawnCount: 0
       enemyPrefab: {fileID: 726310994575374477, guid: c27be978bd94f534ca8a8c924340abcb, type: 3}
     - enemyName: Bat
-      enemyCount: 50
+      enemyCount: 65
       spawnCount: 0
       enemyPrefab: {fileID: 726310994575374477, guid: 638d37e10f32b3042bf29da908259beb, type: 3}
+    - enemyName: Bat
+      enemyCount: 65
+      spawnCount: 0
+      enemyPrefab: {fileID: 2364492899665514887, guid: d26104f97f427174aa47a89f19e15c46, type: 3}
     waveQuota: 0
-    spawnInterval: 1
+    spawnInterval: 1.04
     spawnCount: 0
   currentWaveCount: 0
   bossPrefab: {fileID: 7592724057502700422, guid: ae146497589310a4cbee788292c9ee53, type: 3}
   bossActive: 0
-  bossWaveInterval: 10
+  bossWaveInterval: 5
   enemiesAlive: 0
   maxEnemiesAllowed: 25
   maxEnemiesReached: 0
-  waveInterval: 25
+  waveInterval: 40.1
   relativeSpawnPoints:
   - {fileID: 116792474}
   - {fileID: 2066741276}
