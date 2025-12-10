@@ -31,7 +31,7 @@ public class EnemySpawner : MonoBehaviour
     public GameObject bossPrefab; //Assign your boss prefab in the Inspector
     public bool bossActive = false; //Track whether a boss is alive
     public int bossWaveInterval = 10; //Every 10th wave will be a boss wave
-
+    GameObject currentBossInstance;
 
     [Header("spawner Attributes")]
     float SpawnTimer; //Timer used to spawn the next enemy
@@ -114,6 +114,9 @@ public class EnemySpawner : MonoBehaviour
                     StartCoroutine(BeginNextWave());
             }
         }
+         //Safety check: if the boss was destroyed without notifying the spawner, continue progression
+        if (bossActive && currentBossInstance == null)
+            BossDefeated();
         SpawnTimer += Time.deltaTime;
         
         //Check if enemy can be spawned
@@ -227,13 +230,14 @@ public class EnemySpawner : MonoBehaviour
         Vector3 spawnPosition = player.position + spawnOffset;
 
         //Spawn the boss
-        Instantiate(bossPrefab, spawnPosition, Quaternion.identity);
+        currentBossInstance = Instantiate(bossPrefab, spawnPosition, Quaternion.identity);
         Debug.Log($"Boss spawned on Wave {currentWaveCount + 1}");
     }
 
     public void BossDefeated()
     {
         bossActive = false;
+        currentBossInstance = null;
         Debug.Log("Boss defeated! Next waves will resume normally.");
         //Automatically start the next wave after boss defeat
         StartCoroutine(BeginNextWave());
