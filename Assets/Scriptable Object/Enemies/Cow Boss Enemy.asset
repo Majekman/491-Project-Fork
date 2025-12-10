@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8e67fe8caaeb4849bb8483356a33255, type: 3}
   m_Name: Cow Boss Enemy
   m_EditorClassIdentifier: 
-  moveSpeed: 2.5
+  moveSpeed: 3.25
   maxHealth: 500
   damage: 250
