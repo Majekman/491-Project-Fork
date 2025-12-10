@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Cow Boss Enemy
   m_EditorClassIdentifier: 
   moveSpeed: 3.25
-  maxHealth: 500
+  maxHealth: 1000
   damage: 250

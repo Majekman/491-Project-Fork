@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Skeleton Enemy
   m_EditorClassIdentifier: 
   moveSpeed: 3.3
-  maxHealth: 250
+  maxHealth: 360
   damage: 80
