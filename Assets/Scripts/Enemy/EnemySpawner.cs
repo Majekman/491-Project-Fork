@@ -176,8 +176,8 @@ public class EnemySpawner : MonoBehaviour
     void SpawnEnemies()
     {
         //Prevent regular enemies from spawning while boss is active
-        if (bossActive)
-        return;
+        //if (bossActive)
+        //return;
 
         //Check if if minimum number of enemies have been spawned
         if(waves[currentWaveCount].spawnCount < waves[currentWaveCount].waveQuota && !maxEnemiesReached)
