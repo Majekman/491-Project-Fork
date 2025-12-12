@@ -7906,6 +7906,10 @@ MonoBehaviour:
       enemyCount: 50
       spawnCount: 0
       enemyPrefab: {fileID: 5188296519715690273, guid: 60b37dce2f563234aadbe268ba3c33e9, type: 3}
+    - enemyName: Altima
+      enemyCount: 50
+      spawnCount: 0
+      enemyPrefab: {fileID: 5188296519715690273, guid: 7c2f1862fe99cf745a377d0fa46d5bb7, type: 3}
     waveQuota: 0
     spawnInterval: 4.96
     spawnCount: 0
