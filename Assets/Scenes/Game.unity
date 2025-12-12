@@ -5436,7 +5436,7 @@ MonoBehaviour:
   - {fileID: 3694023231144814928, guid: c1c0995cc8b96e54ca3db9d9bed4ea43, type: 3}
   - {fileID: 3694023231144814928, guid: 66905a9cafeea8d43aa0a3f185e144aa, type: 3}
   player: {fileID: 1419933944}
-  checkerRadius: 0.41
+  checkerRadius: 5.02
   terrainMask:
     serializedVersion: 2
     m_Bits: 64
@@ -9002,6 +9002,18 @@ PrefabInstance:
     - target: {fileID: 1996512022321727653, guid: aaf49c55e011dd041b044848d579bffe, type: 3}
       propertyPath: m_LocalPosition.y
       value: 1.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 2061842777726148567, guid: aaf49c55e011dd041b044848d579bffe, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 2061842777726148567, guid: aaf49c55e011dd041b044848d579bffe, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 2061842777726148567, guid: aaf49c55e011dd041b044848d579bffe, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.85
       objectReference: {fileID: 0}
     - target: {fileID: 2152381213731415537, guid: aaf49c55e011dd041b044848d579bffe, type: 3}
       propertyPath: m_LocalPosition.x
