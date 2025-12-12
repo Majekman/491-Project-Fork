@@ -7895,9 +7895,17 @@ MonoBehaviour:
       spawnCount: 0
       enemyPrefab: {fileID: 2364492899665514887, guid: d26104f97f427174aa47a89f19e15c46, type: 3}
     - enemyName: CSGO Case
-      enemyCount: 300
+      enemyCount: 200
       spawnCount: 0
       enemyPrefab: {fileID: 5188296519715690273, guid: 9b8673f35d2778e46b9f6615024db177, type: 3}
+    - enemyName: Maruchan
+      enemyCount: 300
+      spawnCount: 0
+      enemyPrefab: {fileID: 5188296519715690273, guid: 6d4234349b64cc44584153e11d0edb78, type: 3}
+    - enemyName: Clash Royale Chest
+      enemyCount: 50
+      spawnCount: 0
+      enemyPrefab: {fileID: 5188296519715690273, guid: 60b37dce2f563234aadbe268ba3c33e9, type: 3}
     waveQuota: 0
     spawnInterval: 4.96
     spawnCount: 0
@@ -8055,11 +8063,11 @@ MonoBehaviour:
     spawnInterval: 1.04
     spawnCount: 0
   currentWaveCount: 0
-  bossPrefab: {fileID: 7592724057502700422, guid: ae146497589310a4cbee788292c9ee53, type: 3}
+  bossPrefab: {fileID: 5188296519715690273, guid: c87a441149f58af47b23a02b8a80a15a, type: 3}
   bossActive: 0
   bossWaveInterval: 1
   enemiesAlive: 0
-  maxEnemiesAllowed: 500
+  maxEnemiesAllowed: 550
   maxEnemiesReached: 0
   waveInterval: 40.1
   relativeSpawnPoints:
