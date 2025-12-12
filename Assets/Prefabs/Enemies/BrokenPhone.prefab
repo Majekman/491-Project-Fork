@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: -5370102480725328375}
   - component: {fileID: 8995478472590345736}
   - component: {fileID: -664455049297990682}
-  - component: {fileID: -4019441017572191250}
+  - component: {fileID: 4976523280786344433}
   m_Layer: 0
-  m_Name: CSGO Case
+  m_Name: BrokenPhone
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31,7 +31,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.31941, y: 0.31941, z: 0.31941}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -77,7 +77,7 @@ SpriteRenderer:
   m_SortingLayerID: 94326941
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: bb53e002b4d5f83489e4bc8eb86a8ce8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f43792a1e50293f4d9a7b08b8ffc6b30, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -133,7 +133,7 @@ MonoBehaviour:
   currentHealth: 0
   currentDamage: 0
   despawnDistance: 20
---- !u!60 &-4019441017572191250
+--- !u!60 &4976523280786344433
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -169,7 +169,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.6, y: 3.6}
+    oldSize: {x: 5.26, y: 5.16}
     newSize: {x: 3.6, y: 3.6}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -177,48 +177,37 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 1.0799999, y: -0.51}
-      - {x: 1.16, y: -0.42999998}
-      - {x: 1.17, y: -0.24}
-      - {x: 1.18, y: -0.03}
-      - {x: 1.1899999, y: 0.22}
-      - {x: 1.1899999, y: 0.41}
-      - {x: 1.22, y: 0.44}
-      - {x: 1.22, y: 0.48}
-      - {x: 1.1999999, y: 0.55}
-      - {x: 1.16, y: 0.59999996}
-      - {x: 1, y: 0.64}
-      - {x: 0.45, y: 0.74}
-      - {x: 0.01, y: 0.83}
-      - {x: -0.29, y: 0.89}
-      - {x: -0.38, y: 0.89}
-      - {x: -0.65, y: 0.82}
-      - {x: -0.81, y: 0.77}
-      - {x: -1.04, y: 0.68}
-      - {x: -1.09, y: 0.65999997}
-      - {x: -1.14, y: 0.59999996}
-      - {x: -1.2099999, y: 0.52}
-      - {x: -1.2099999, y: 0.44}
-      - {x: -1.14, y: 0.39999998}
-      - {x: -1.13, y: 0.32999998}
-      - {x: -1.12, y: 0.089999996}
-      - {x: -1.11, y: -0.14}
-      - {x: -1.1, y: -0.41}
-      - {x: -1.04, y: -0.45999998}
-      - {x: -0.96999997, y: -0.45999998}
-      - {x: -0.9, y: -0.51}
-      - {x: -0.79999995, y: -0.52}
-      - {x: -0.71, y: -0.56}
-      - {x: -0.5, y: -0.63}
-      - {x: -0.16, y: -0.74}
-      - {x: -0.089999996, y: -0.76}
-      - {x: -0.01, y: -0.78}
-      - {x: 0.049999997, y: -0.81}
-      - {x: 0.21, y: -0.84999996}
-      - {x: 0.26999998, y: -0.89}
-      - {x: 0.39, y: -0.89}
-      - {x: 0.47, y: -0.88}
-      - {x: 0.58, y: -0.83}
-      - {x: 0.78999996, y: -0.7}
-      - {x: 0.90999997, y: -0.62}
+    - - {x: 1.79, y: -2.08}
+      - {x: 1.79, y: -2.03}
+      - {x: 1.73, y: -1.9799999}
+      - {x: 1.41, y: -1.9499999}
+      - {x: 1.38, y: -1.89}
+      - {x: 1.38, y: 0.91999996}
+      - {x: 1.39, y: 0.93}
+      - {x: 1.39, y: 1.48}
+      - {x: 1.38, y: 1.49}
+      - {x: 1.38, y: 2.33}
+      - {x: 1.28, y: 2.5}
+      - {x: 1.18, y: 2.57}
+      - {x: 1.11, y: 2.58}
+      - {x: -0.76, y: 2.58}
+      - {x: -0.88, y: 2.53}
+      - {x: -1, y: 2.34}
+      - {x: -1.01, y: 2.1699998}
+      - {x: -1.01, y: 0.83}
+      - {x: -1, y: 0.82}
+      - {x: -1, y: -1.76}
+      - {x: -0.98999995, y: -1.9699999}
+      - {x: -1.11, y: -1.9799999}
+      - {x: -1.16, y: -2.05}
+      - {x: -1.16, y: -2.11}
+      - {x: -0.98999995, y: -2.19}
+      - {x: -0.90999997, y: -2.2}
+      - {x: -0.21, y: -2.3}
+      - {x: 0.13, y: -2.34}
+      - {x: 0.39, y: -2.35}
+      - {x: 0.52, y: -2.35}
+      - {x: 0.69, y: -2.34}
+      - {x: 1.17, y: -2.29}
+      - {x: 1.6899999, y: -2.1499999}
   m_UseDelaunayMesh: 0
