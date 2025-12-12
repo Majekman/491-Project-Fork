@@ -7883,17 +7883,21 @@ MonoBehaviour:
   - waveName: Wave 1
     enemyGroups:
     - enemyName: Bat
-      enemyCount: 100
+      enemyCount: 0
       spawnCount: 0
       enemyPrefab: {fileID: 726310994575374477, guid: c27be978bd94f534ca8a8c924340abcb, type: 3}
     - enemyName: Bat
-      enemyCount: 300
+      enemyCount: 0
       spawnCount: 0
       enemyPrefab: {fileID: 726310994575374477, guid: 638d37e10f32b3042bf29da908259beb, type: 3}
     - enemyName: Skeleton
-      enemyCount: 100
+      enemyCount: 0
       spawnCount: 0
       enemyPrefab: {fileID: 2364492899665514887, guid: d26104f97f427174aa47a89f19e15c46, type: 3}
+    - enemyName: CSGO Case
+      enemyCount: 300
+      spawnCount: 0
+      enemyPrefab: {fileID: 5188296519715690273, guid: 9b8673f35d2778e46b9f6615024db177, type: 3}
     waveQuota: 0
     spawnInterval: 4.96
     spawnCount: 0
