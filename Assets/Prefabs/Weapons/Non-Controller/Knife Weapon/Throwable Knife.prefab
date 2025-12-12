@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 6872054251635975964}
   - component: {fileID: 2629186645372863221}
   - component: {fileID: 4707183755884681438}
-  - component: {fileID: 7834403101259985492}
   - component: {fileID: 7992970695368749396}
+  - component: {fileID: 3754161281620250404}
   m_Layer: 0
   m_Name: Throwable Knife
   m_TagString: Untagged
@@ -28,13 +28,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1883600298195499522}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: -0.38268343, w: 0.92387956}
+  m_LocalRotation: {x: -0, y: -0, z: 0.0005444992, w: 0.9999999}
   m_LocalPosition: {x: 3.5602858, y: 0.011823773, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.080397114, y: 0.089335084, z: 0.089335084}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -45}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.062}
 --- !u!212 &2629186645372863221
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 94326941
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1041754904, guid: 6eb16e372762d6b4cb708c44ebfab931, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a515a15f9c480684d9a5f7d6a3adc2c1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -101,8 +101,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponData: {fileID: 11400000, guid: 3c6e48aa140a4574d90fd7c0dd3fb099, type: 2}
   destroyAfterSeconds: 3
---- !u!60 &7834403101259985492
-PolygonCollider2D:
+--- !u!50 &7992970695368749396
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1883600298195499522}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!61 &3754161281620250404
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -133,58 +160,16 @@ PolygonCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.04, y: 0.03}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 15.5, y: 7.5}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.24920636, y: 0.5027009}
-      - {x: -0.30298215, y: -0.056223314}
-      - {x: -0.4425115, y: -0.0579177}
-      - {x: -0.4422606, y: -0.30728942}
-      - {x: -0.50732726, y: -0.30666828}
-      - {x: -0.5, y: -0.5}
-      - {x: -0.3076496, y: -0.50712454}
-      - {x: -0.30701798, y: -0.44273812}
-      - {x: -0.2401535, y: -0.44015095}
-      - {x: -0.19609872, y: -0.44059724}
-      - {x: -0.05880541, y: -0.44144517}
-      - {x: -0.05870835, y: -0.3062365}
-      - {x: 0.24383357, y: -0.014345197}
-      - {x: 0.37671375, y: 0.12592453}
-      - {x: 0.3764454, y: 0.5038239}
-  m_UseDelaunayMesh: 0
---- !u!50 &7992970695368749396
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1883600298195499522}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
+  serializedVersion: 2
+  m_Size: {x: 13.73, y: 5.81}
+  m_EdgeRadius: 0

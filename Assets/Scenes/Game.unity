@@ -5436,7 +5436,7 @@ MonoBehaviour:
   - {fileID: 3694023231144814928, guid: c1c0995cc8b96e54ca3db9d9bed4ea43, type: 3}
   - {fileID: 3694023231144814928, guid: 66905a9cafeea8d43aa0a3f185e144aa, type: 3}
   player: {fileID: 1419933944}
-  checkerRadius: 0.41
+  checkerRadius: 5
   terrainMask:
     serializedVersion: 2
     m_Bits: 64
@@ -7882,180 +7882,172 @@ MonoBehaviour:
   waves:
   - waveName: Wave 1
     enemyGroups:
-    - enemyName: Bat
-      enemyCount: 170
+    - enemyName: Apple Logo Enemy
+      enemyCount: 150
       spawnCount: 0
-      enemyPrefab: {fileID: 726310994575374477, guid: c27be978bd94f534ca8a8c924340abcb, type: 3}
-    - enemyName: Bat
-      enemyCount: 0
-      spawnCount: 0
-      enemyPrefab: {fileID: 726310994575374477, guid: 638d37e10f32b3042bf29da908259beb, type: 3}
-    - enemyName: Skeleton
-      enemyCount: 0
-      spawnCount: 0
-      enemyPrefab: {fileID: 2364492899665514887, guid: d26104f97f427174aa47a89f19e15c46, type: 3}
+      enemyPrefab: {fileID: 197352947319226488, guid: e15c3dc1b27ca0146913607dcd09bbd2, type: 3}
     waveQuota: 0
     spawnInterval: 1
     spawnCount: 0
   - waveName: Wave 2
     enemyGroups:
-    - enemyName: Bat
+    - enemyName: Apple Logo Enemy
       enemyCount: 100
       spawnCount: 0
-      enemyPrefab: {fileID: 726310994575374477, guid: c27be978bd94f534ca8a8c924340abcb, type: 3}
+      enemyPrefab: {fileID: 197352947319226488, guid: e15c3dc1b27ca0146913607dcd09bbd2, type: 3}
+    - enemyName: Clash Royale Chest Enemy
+      enemyCount: 100
+      spawnCount: 0
+      enemyPrefab: {fileID: 4628031564230687243, guid: 018dc787e83312943a7d189d6b55776b, type: 3}
     - enemyName: Bat
       enemyCount: 0
       spawnCount: 0
       enemyPrefab: {fileID: 726310994575374477, guid: 638d37e10f32b3042bf29da908259beb, type: 3}
-    - enemyName: Skeleton
-      enemyCount: 100
-      spawnCount: 0
-      enemyPrefab: {fileID: 2364492899665514887, guid: d26104f97f427174aa47a89f19e15c46, type: 3}
     waveQuota: 0
     spawnInterval: 1.08
     spawnCount: 0
   - waveName: Wave 3
     enemyGroups:
-    - enemyName: Bat
+    - enemyName: Apple Logo Enemy
       enemyCount: 100
       spawnCount: 0
-      enemyPrefab: {fileID: 726310994575374477, guid: c27be978bd94f534ca8a8c924340abcb, type: 3}
-    - enemyName: Bat
+      enemyPrefab: {fileID: 197352947319226488, guid: e15c3dc1b27ca0146913607dcd09bbd2, type: 3}
+    - enemyName: CS GO Case Enemy
       enemyCount: 25
       spawnCount: 0
-      enemyPrefab: {fileID: 726310994575374477, guid: 638d37e10f32b3042bf29da908259beb, type: 3}
-    - enemyName: Skeleton
+      enemyPrefab: {fileID: 1470912542103820075, guid: b31499428624dcd4385e843cd33e4502, type: 3}
+    - enemyName: Clash Royale Chest Enemy
       enemyCount: 100
       spawnCount: 0
-      enemyPrefab: {fileID: 2364492899665514887, guid: d26104f97f427174aa47a89f19e15c46, type: 3}
+      enemyPrefab: {fileID: 4628031564230687243, guid: 018dc787e83312943a7d189d6b55776b, type: 3}
     waveQuota: 0
     spawnInterval: 1.01
     spawnCount: 0
   - waveName: Wave 4
     enemyGroups:
-    - enemyName: Bat
+    - enemyName: Apple Logo Enemy
       enemyCount: 120
       spawnCount: 0
-      enemyPrefab: {fileID: 726310994575374477, guid: c27be978bd94f534ca8a8c924340abcb, type: 3}
-    - enemyName: Bat
+      enemyPrefab: {fileID: 197352947319226488, guid: e15c3dc1b27ca0146913607dcd09bbd2, type: 3}
+    - enemyName: CS GO Case
       enemyCount: 52
       spawnCount: 0
-      enemyPrefab: {fileID: 726310994575374477, guid: 638d37e10f32b3042bf29da908259beb, type: 3}
-    - enemyName: Skeleton
+      enemyPrefab: {fileID: 1470912542103820075, guid: b31499428624dcd4385e843cd33e4502, type: 3}
+    - enemyName: Clash Royale Chest Enemy
       enemyCount: 120
       spawnCount: 0
-      enemyPrefab: {fileID: 2364492899665514887, guid: d26104f97f427174aa47a89f19e15c46, type: 3}
+      enemyPrefab: {fileID: 4628031564230687243, guid: 018dc787e83312943a7d189d6b55776b, type: 3}
     waveQuota: 0
     spawnInterval: 1
     spawnCount: 0
   - waveName: Wave 5
     enemyGroups:
-    - enemyName: Bat
+    - enemyName: Apple Logo Enemy
       enemyCount: 141
       spawnCount: 0
-      enemyPrefab: {fileID: 726310994575374477, guid: c27be978bd94f534ca8a8c924340abcb, type: 3}
-    - enemyName: Bat
+      enemyPrefab: {fileID: 197352947319226488, guid: e15c3dc1b27ca0146913607dcd09bbd2, type: 3}
+    - enemyName: CS GO Case
       enemyCount: 76
       spawnCount: 0
-      enemyPrefab: {fileID: 726310994575374477, guid: 638d37e10f32b3042bf29da908259beb, type: 3}
-    - enemyName: Bat
+      enemyPrefab: {fileID: 1470912542103820075, guid: b31499428624dcd4385e843cd33e4502, type: 3}
+    - enemyName: Clash Royale Chest Enemy
       enemyCount: 141
       spawnCount: 0
-      enemyPrefab: {fileID: 2364492899665514887, guid: d26104f97f427174aa47a89f19e15c46, type: 3}
+      enemyPrefab: {fileID: 4628031564230687243, guid: 018dc787e83312943a7d189d6b55776b, type: 3}
     waveQuota: 0
     spawnInterval: 0.96
     spawnCount: 0
   - waveName: Wave 6
     enemyGroups:
-    - enemyName: Bat
+    - enemyName: Apple Logo Enemy
       enemyCount: 164
       spawnCount: 0
-      enemyPrefab: {fileID: 726310994575374477, guid: c27be978bd94f534ca8a8c924340abcb, type: 3}
-    - enemyName: Bat
+      enemyPrefab: {fileID: 197352947319226488, guid: e15c3dc1b27ca0146913607dcd09bbd2, type: 3}
+    - enemyName: CS GO Case Enemy
       enemyCount: 85
       spawnCount: 0
-      enemyPrefab: {fileID: 726310994575374477, guid: 638d37e10f32b3042bf29da908259beb, type: 3}
-    - enemyName: Bat
+      enemyPrefab: {fileID: 1470912542103820075, guid: b31499428624dcd4385e843cd33e4502, type: 3}
+    - enemyName: Clash Royale Chest Enemy
       enemyCount: 164
       spawnCount: 0
-      enemyPrefab: {fileID: 2364492899665514887, guid: d26104f97f427174aa47a89f19e15c46, type: 3}
+      enemyPrefab: {fileID: 4628031564230687243, guid: 018dc787e83312943a7d189d6b55776b, type: 3}
     waveQuota: 0
     spawnInterval: 0.99
     spawnCount: 0
   - waveName: Wave 7
     enemyGroups:
-    - enemyName: Bat
+    - enemyName: Apple Logo Enemy
       enemyCount: 181
       spawnCount: 0
-      enemyPrefab: {fileID: 726310994575374477, guid: c27be978bd94f534ca8a8c924340abcb, type: 3}
-    - enemyName: Bat
+      enemyPrefab: {fileID: 197352947319226488, guid: e15c3dc1b27ca0146913607dcd09bbd2, type: 3}
+    - enemyName: CS GO Case Enemy
       enemyCount: 85
       spawnCount: 0
-      enemyPrefab: {fileID: 726310994575374477, guid: 638d37e10f32b3042bf29da908259beb, type: 3}
-    - enemyName: Bat
+      enemyPrefab: {fileID: 1470912542103820075, guid: b31499428624dcd4385e843cd33e4502, type: 3}
+    - enemyName: Clash Royale Chest Enemy
       enemyCount: 180
       spawnCount: 0
-      enemyPrefab: {fileID: 2364492899665514887, guid: d26104f97f427174aa47a89f19e15c46, type: 3}
+      enemyPrefab: {fileID: 4628031564230687243, guid: 018dc787e83312943a7d189d6b55776b, type: 3}
     waveQuota: 0
     spawnInterval: 1.02
     spawnCount: 0
   - waveName: Wave 8
     enemyGroups:
-    - enemyName: Bat
+    - enemyName: Apple Logo Enemy
       enemyCount: 200
       spawnCount: 0
-      enemyPrefab: {fileID: 726310994575374477, guid: c27be978bd94f534ca8a8c924340abcb, type: 3}
-    - enemyName: Bat
+      enemyPrefab: {fileID: 197352947319226488, guid: e15c3dc1b27ca0146913607dcd09bbd2, type: 3}
+    - enemyName: CS GO Case Enemy
       enemyCount: 96
       spawnCount: 0
-      enemyPrefab: {fileID: 726310994575374477, guid: 638d37e10f32b3042bf29da908259beb, type: 3}
-    - enemyName: Bat
+      enemyPrefab: {fileID: 1470912542103820075, guid: b31499428624dcd4385e843cd33e4502, type: 3}
+    - enemyName: Clash Royale Chest Enemy
       enemyCount: 200
       spawnCount: 0
-      enemyPrefab: {fileID: 2364492899665514887, guid: d26104f97f427174aa47a89f19e15c46, type: 3}
+      enemyPrefab: {fileID: 4628031564230687243, guid: 018dc787e83312943a7d189d6b55776b, type: 3}
     waveQuota: 0
     spawnInterval: 1.01
     spawnCount: 0
   - waveName: Wave 9
     enemyGroups:
-    - enemyName: Bat
+    - enemyName: Apple Logo Enemy
       enemyCount: 215
       spawnCount: 0
-      enemyPrefab: {fileID: 726310994575374477, guid: c27be978bd94f534ca8a8c924340abcb, type: 3}
-    - enemyName: Bat
+      enemyPrefab: {fileID: 197352947319226488, guid: e15c3dc1b27ca0146913607dcd09bbd2, type: 3}
+    - enemyName: CS GO Case Enemy
       enemyCount: 120
       spawnCount: 0
-      enemyPrefab: {fileID: 726310994575374477, guid: 638d37e10f32b3042bf29da908259beb, type: 3}
-    - enemyName: Bat
+      enemyPrefab: {fileID: 1470912542103820075, guid: b31499428624dcd4385e843cd33e4502, type: 3}
+    - enemyName: Clash Royale Chest Enemy
       enemyCount: 213
       spawnCount: 0
-      enemyPrefab: {fileID: 2364492899665514887, guid: d26104f97f427174aa47a89f19e15c46, type: 3}
+      enemyPrefab: {fileID: 4628031564230687243, guid: 018dc787e83312943a7d189d6b55776b, type: 3}
     waveQuota: 0
     spawnInterval: 0.99
     spawnCount: 0
   - waveName: Wave 10
     enemyGroups:
-    - enemyName: Bat
+    - enemyName: Apple Logo Enemy
       enemyCount: 238
       spawnCount: 0
-      enemyPrefab: {fileID: 726310994575374477, guid: c27be978bd94f534ca8a8c924340abcb, type: 3}
-    - enemyName: Bat
+      enemyPrefab: {fileID: 197352947319226488, guid: e15c3dc1b27ca0146913607dcd09bbd2, type: 3}
+    - enemyName: CS GO Case Enemy
       enemyCount: 140
       spawnCount: 0
-      enemyPrefab: {fileID: 726310994575374477, guid: 638d37e10f32b3042bf29da908259beb, type: 3}
-    - enemyName: Bat
+      enemyPrefab: {fileID: 1470912542103820075, guid: b31499428624dcd4385e843cd33e4502, type: 3}
+    - enemyName: Clash Royale Chest Enemy
       enemyCount: 235
       spawnCount: 0
-      enemyPrefab: {fileID: 2364492899665514887, guid: d26104f97f427174aa47a89f19e15c46, type: 3}
+      enemyPrefab: {fileID: 4628031564230687243, guid: 018dc787e83312943a7d189d6b55776b, type: 3}
     waveQuota: 0
-    spawnInterval: 1.04
+    spawnInterval: 1
     spawnCount: 0
   currentWaveCount: 0
-  bossPrefab: {fileID: 7592724057502700422, guid: ae146497589310a4cbee788292c9ee53, type: 3}
+  bossPrefab: {fileID: 6203427501577767647, guid: 79b002ac85dd42449ad6d04f51b962c4, type: 3}
   bossActive: 0
   bossWaveInterval: 5
   enemiesAlive: 0
-  maxEnemiesAllowed: 25
+  maxEnemiesAllowed: 30
   maxEnemiesReached: 0
   waveInterval: 50.5
   relativeSpawnPoints:
@@ -8979,6 +8971,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 6.74
       objectReference: {fileID: 0}
+    - target: {fileID: 1879707631644266738, guid: aaf49c55e011dd041b044848d579bffe, type: 3}
+      propertyPath: m_Size.x
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 1996512022321727653, guid: aaf49c55e011dd041b044848d579bffe, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.61
@@ -8986,6 +8982,18 @@ PrefabInstance:
     - target: {fileID: 1996512022321727653, guid: aaf49c55e011dd041b044848d579bffe, type: 3}
       propertyPath: m_LocalPosition.y
       value: 1.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 2061842777726148567, guid: aaf49c55e011dd041b044848d579bffe, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8554147
+      objectReference: {fileID: 0}
+    - target: {fileID: 2061842777726148567, guid: aaf49c55e011dd041b044848d579bffe, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8661075
+      objectReference: {fileID: 0}
+    - target: {fileID: 2061842777726148567, guid: aaf49c55e011dd041b044848d579bffe, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8554147
       objectReference: {fileID: 0}
     - target: {fileID: 2152381213731415537, guid: aaf49c55e011dd041b044848d579bffe, type: 3}
       propertyPath: m_LocalPosition.x
