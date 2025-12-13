@@ -8047,7 +8047,7 @@ MonoBehaviour:
   bossActive: 0
   bossWaveInterval: 5
   enemiesAlive: 0
-  maxEnemiesAllowed: 30
+  maxEnemiesAllowed: 20
   maxEnemiesReached: 0
   waveInterval: 50.5
   relativeSpawnPoints:
